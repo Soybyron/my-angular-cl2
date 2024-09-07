@@ -1,1 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+    --variableParrafo : 2rem;
+    --color1 : #ef5230;
+    --colores-filas : #31dd1d;
+    --color3 : #261ddd;
+    --color4 : #ddd31d;
+    --radius : 20px;
+    --ancho-div-general : 100px;
+    --ancho-div-sub : 50px;
+
+
+}
+
+table {
+
+    color: var(--color1);
+    font-size: var(--variableParrafo);
+}
+
+th {
+    background-color: var(--color2);
+    color: var(--color3);
+}
+
+td {
+    background-color: var(--color4);
+    color: var(--color1)
+}
+
+.general {
+    background-color: var(--color1);
+    border-radius: var(--radius);
+    width: var(--ancho-div-general);
+}
+
+.subitem {
+    background-color: var(--color4);
+    border-radius: var(--radius);
+    width: var(--ancho-div-sub);
+}
